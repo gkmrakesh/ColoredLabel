@@ -1,0 +1,16 @@
+PODS:
+  - ColoredLabel (0.1.0)
+
+DEPENDENCIES:
+  - ColoredLabel (from `../`)
+
+EXTERNAL SOURCES:
+  ColoredLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ColoredLabel: 6dacf94100e6eb2d4337784ab38a1c086fe318c3
+
+PODFILE CHECKSUM: 55acff2a4d7acb8f32628fa5864a7483820385f8
+
+COCOAPODS: 1.2.0
