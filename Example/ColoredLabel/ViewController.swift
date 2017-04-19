@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import ColoredLabel
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let label=UILabel(frame: CGRect(x: 20, y: 20, width: 200, height: 200))
+        label.text = "IAM RED LABEL"
+        self.view.addSubview(label)
+        label.toRed()
+    
     }
 
     override func didReceiveMemoryWarning() {

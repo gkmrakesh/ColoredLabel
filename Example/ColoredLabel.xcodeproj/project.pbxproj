@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26C4A0990E0ADD2502517E84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3EFFE7BE7F9750FC5CF61ECF /* ColoredLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColoredLabel.podspec; path = ../ColoredLabel.podspec; sourceTree = "<group>"; };
+		26C4A0990E0ADD2502517E84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3EFFE7BE7F9750FC5CF61ECF /* ColoredLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColoredLabel.podspec; path = ../ColoredLabel.podspec; sourceTree = "<group>"; };
 		3F528B722A7F241FBDA62F57 /* Pods-ColoredLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoredLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColoredLabel_Tests/Pods-ColoredLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ColoredLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoredLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* ColoredLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoredLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61BDF82E16994F451472B7BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		61BDF82E16994F451472B7BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		703C32F7C79B350A06E045C4 /* Pods-ColoredLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoredLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColoredLabel_Tests/Pods-ColoredLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73F4EDD55E50C558C492F278 /* Pods-ColoredLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoredLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColoredLabel_Example/Pods-ColoredLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9F1907BA9990B562240BA1EA /* Pods_ColoredLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColoredLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,6 +219,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 946AZSE358;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -523,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F528B722A7F241FBDA62F57 /* Pods-ColoredLabel_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 946AZSE358;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 703C32F7C79B350A06E045C4 /* Pods-ColoredLabel_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 946AZSE358;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

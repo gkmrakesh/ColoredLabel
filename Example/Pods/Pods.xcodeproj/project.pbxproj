@@ -10,10 +10,10 @@
 		1BCDA00F48229D606D1D097FC0C83ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2486CFCCB976B5D352FE872C0EF982B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		37D62DC0509AC70A5BCE2ABF94F59020 /* Pods-ColoredLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D301692CD13C3A362BD9A9CFDF2088 /* Pods-ColoredLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F9A9AADE93863AB4A950E56546859D7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED25A76ECEEE3FC0F94BA98C3EF15 /* ReplaceMe.swift */; };
 		6F1097F84030264D5FBB5F7A7613BD4C /* Pods-ColoredLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFDF8187820857D4F6CF97861A448B /* Pods-ColoredLabel_Tests-dummy.m */; };
 		798744BF390A995D9CC2AF1335391B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5681759742DAB78ACB6350F060C4FCE /* ColoredLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5743BF52364D33692E1DD40DA1017E /* ColoredLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAA75BF1EA7898000FCFFB7 /* label.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA75BE1EA7898000FCFFB7 /* label.swift */; };
 		DFFF0F21F95CF5C88F2E3CBE6ADCDEB0 /* Pods-ColoredLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBF71F300B573672B25E8CBC5D738BA /* Pods-ColoredLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC6C75BA1FC28498187D4D6FC1C32210 /* ColoredLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AF5DF4C42B220AD381CD65FC2A2D9 /* ColoredLabel-dummy.m */; };
 		F4B29198F3FC624071B0B4EDD87AF71C /* Pods-ColoredLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5C7F13B36FF477A62D061310A5A41 /* Pods-ColoredLabel_Example-dummy.m */; };
@@ -32,11 +32,10 @@
 /* Begin PBXFileReference section */
 		175899AD5E031DD76B183C803B452A8A /* Pods-ColoredLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColoredLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1DD5C7F13B36FF477A62D061310A5A41 /* Pods-ColoredLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColoredLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		1F962DD7273D9FB383D1849EF3609FF7 /* Pods_ColoredLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColoredLabel_Example.framework; path = "Pods-ColoredLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		203959FC0E1E8D252BB6C72C551BD711 /* Pods-ColoredLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ColoredLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		1F962DD7273D9FB383D1849EF3609FF7 /* Pods_ColoredLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColoredLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203959FC0E1E8D252BB6C72C551BD711 /* Pods-ColoredLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColoredLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		342AF5DF4C42B220AD381CD65FC2A2D9 /* ColoredLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColoredLabel-dummy.m"; sourceTree = "<group>"; };
 		34953C309068D70045CDF0106464DB2E /* Pods-ColoredLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColoredLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B6ED25A76ECEEE3FC0F94BA98C3EF15 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		3EBF71F300B573672B25E8CBC5D738BA /* Pods-ColoredLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColoredLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		4DAFDF8187820857D4F6CF97861A448B /* Pods-ColoredLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColoredLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		5E84FF320E891F8072D85BBA8A1C266C /* Pods-ColoredLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColoredLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -44,19 +43,20 @@
 		6F606786B75E2C4300F1D02CA57FC1E0 /* Pods-ColoredLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColoredLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7B71D99112DA59FE7921EB577C254FEF /* Pods-ColoredLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColoredLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DFCD3175993C91BAA19B21EFA60519C /* ColoredLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColoredLabel-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96A86B4DD433B7A46E63BC136310D860 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F77768B56F7FA1FE1367BA04A0860F1 /* Pods-ColoredLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ColoredLabel_Example.modulemap"; sourceTree = "<group>"; };
-		A058D9959CD81ED066C825485A45C108 /* ColoredLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColoredLabel.framework; path = ColoredLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F77768B56F7FA1FE1367BA04A0860F1 /* Pods-ColoredLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColoredLabel_Example.modulemap"; sourceTree = "<group>"; };
+		A058D9959CD81ED066C825485A45C108 /* ColoredLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColoredLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D301692CD13C3A362BD9A9CFDF2088 /* Pods-ColoredLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColoredLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A707C059D11351BBD7B7760A4BB67974 /* Pods-ColoredLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColoredLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4FF65085C9A9DF470D606E85E3D4FDB /* ColoredLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColoredLabel.xcconfig; sourceTree = "<group>"; };
-		B7FC625BB7624905212EB4E990C90450 /* ColoredLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ColoredLabel.modulemap; sourceTree = "<group>"; };
+		B7FC625BB7624905212EB4E990C90450 /* ColoredLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColoredLabel.modulemap; sourceTree = "<group>"; };
 		B9C3F0BB4CEFE4E2F6FAC43A479E7A7B /* Pods-ColoredLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColoredLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BB235E3F66DD31FD74B6403D0EA90000 /* Pods_ColoredLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColoredLabel_Tests.framework; path = "Pods-ColoredLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB235E3F66DD31FD74B6403D0EA90000 /* Pods_ColoredLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColoredLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EF81F055C280E40C826A4735E81D06 /* Pods-ColoredLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColoredLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DC5743BF52364D33692E1DD40DA1017E /* ColoredLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColoredLabel-umbrella.h"; sourceTree = "<group>"; };
 		DC80EA04277C6F435E5DE6EF7E1BFE0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAA75BE1EA7898000FCFFB7 /* label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = label.swift; sourceTree = "<group>"; };
 		DEC3EEAE5840FD9F9D25CA3700B30804 /* Pods-ColoredLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColoredLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		E2DCEF0BB36AD84BA98BA283B53165D9 /* Pods-ColoredLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColoredLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E998AD79606CBDDA5B3BD148FD4A4FD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,9 +169,8 @@
 		90658DA6D33DB5399DD2F7FDFD0830D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3B6ED25A76ECEEE3FC0F94BA98C3EF15 /* ReplaceMe.swift */,
+				DEAA75BE1EA7898000FCFFB7 /* label.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -210,7 +209,6 @@
 			children = (
 				90658DA6D33DB5399DD2F7FDFD0830D9 /* Classes */,
 			);
-			name = ColoredLabel;
 			path = ColoredLabel;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					D601BCD0721648DE59AAC96BA956DCEE = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6C75BA1FC28498187D4D6FC1C32210 /* ColoredLabel-dummy.m in Sources */,
-				5F9A9AADE93863AB4A950E56546859D7 /* ReplaceMe.swift in Sources */,
+				DEAA75BF1EA7898000FCFFB7 /* label.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4FF65085C9A9DF470D606E85E3D4FDB /* ColoredLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -651,6 +655,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4FF65085C9A9DF470D606E85E3D4FDB /* ColoredLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
